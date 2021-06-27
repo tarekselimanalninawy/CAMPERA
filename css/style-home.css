@@ -1,0 +1,714 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #eeeeee;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0c0032;
+}
+
+
+button {
+    width:155px;
+    height: 33px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    background-color: wheat;
+    color: #0c0032;
+    margin:10px;
+    transition: all 0.7s;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: #0c0032 ;
+    background-color: wheat;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', serif;
+    text-align: center;
+}
+
+*{
+    transition: all ease-in-out 0.7s;
+}
+
+
+.main {
+    height: 100vh;
+    background-image: url("../images/bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    color: #4a5057;
+    font-size: 16px;
+    margin: 0px 15px;
+    font-weight: 600;
+}
+.menu img {
+    height: 57px;
+
+}
+
+.sign-in {
+    width: 100px;
+    height: 35px;
+    border: 1px solid thistle;
+    border-radius: 10px;
+    color:#1f2833;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in:hover{
+    background-color: #1f2833;
+    color:wheat;
+    transition: all ease 0.3s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+}
+
+.box {
+    width: 222px;
+    height: 317px;
+    border-radius: 7px;
+    box-shadow: 3px 7px 31px rgba(0, 0, 0, 0.2);
+    background-color: #f6f6f6;
+    margin: 30px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.box p {
+    font-family: calibti;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.79);
+    border-radius: 5px;
+    font-family: 'Raleway',serif;
+
+}
+
+.slide-detail p:nth-child(1){
+    font-size: 27px;
+    font-weight: 700;
+
+}
+
+.slide-detail p:nth-child(2) {
+    font-size: 21px;
+}
+
+.slide-detail {
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-20%);
+    width: 100%;
+}
+
+.user {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #3d3d3e;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box-img01{
+    background-image: url(../images/box-img01.jpg);
+}
+
+.box-img02{
+    background-image: url(../images/box-img02.jpg);
+}
+.box-img03{
+    background-image: url(../images/box-img03.jpg);
+}
+.box-img04{
+    background-image: url(../images/box-img04.jpg);
+}
+.box-img05{
+    background-image: url(../images/box-img05.jpg);
+}
+.box-img06{
+    background-image: url(../images/box-img06.jpg);
+}
+
+.box-img07{
+    background-image: url(../images/box-img07.jpg);
+}
+
+
+
+
+
+.user-img01 {
+    background-image: url(../images/moto.jpg);
+}
+
+.user-img02 {
+    background-image: url(../images/moto.jpg);
+}
+
+.user-img03 {
+    background-image: url(../images/moto.jpg);
+}
+
+.user-img04 {
+    background-image: url(../images/moto.jpg);
+}
+
+.user-img05 {
+    background-image: url(../images/moto.jpg);
+}
+
+.user-img06 {
+    background-image: url(../images/moto.jpg);
+}
+
+.user-img07 {
+    background-image: url(../images/moto.jpg);
+}
+
+.g-heading span {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    background-color: #1f2833;
+}
+
+.graphic {
+    position:absolute;
+    left: 30px;
+    bottom:30px;
+    width: 200px;
+}
+
+.g-heading{
+    display: flex;
+    align-items: center;
+
+}
+
+.g-details {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #3d3d33;
+}
+
+.g-heading p{
+    font-weight: bold;
+    font-size: 20px;
+    color: #3d3d3d;
+    margin: 0 10px;
+    line-height: 25px;
+}
+
+
+
+.s-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-heading p:nth-child(1),
+.t-heading p:nth-child(1),
+.p-heading p:nth-child(1){
+    font-family: serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #3e3e3e;
+    width: 277px;
+    text-align:center;
+    margin: 79px auto 1px auto;
+
+}
+
+
+.s-heading p:nth-child(2),
+.t-heading p:nth-child(2),
+.p-heading p:nth-child(2) {
+font-size: 15px;
+color: #9f9f9f;
+margin-top: 0px;
+text-align: center;
+}
+
+.s-heading, 
+.t-heading,
+.p-heading {
+    margin: 30px 0px 30px 0px;
+}
+
+.s-box {
+    width:244px;
+    padding:20px;
+    background-color: #ffffff;;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+.s-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #313131;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s-box a {
+    font-weight: bold;
+    color:#0c0032;
+    font-size: 21px;
+    margin: 10px 0px;
+}
+
+.s-box p {
+    color: #313131;
+    font-size: 15px;
+}
+
+
+.s-button {
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    color: wheat;
+    background-color: #1f2833;
+}
+
+.front-icon {
+    background-image: url(../images/moto.jpg);
+}
+
+.back-icon {
+    background-image: url(../images/kid.jpg);
+}
+
+.seo-icon {
+    background-image: url(../images/school.jpg);
+}
+
+.gui-icon {
+    background-image: url(../images/card2.jpg);
+}
+
+.s-button:hover {
+    color: #1f2833 ;
+    background-color: wheat;
+    transition: all ease 1s;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+/* Team Instractors *********************/
+
+
+.team-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3d3d3e;
+    margin: 15px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.t-id {
+    font-family:serif;
+}
+
+.t-id {
+    font-size: 18px;
+    color: #3d3d3e;
+    font-weight: bold;
+}
+
+.t-id p {
+    font-size: 15px;
+    color:#9f9393;
+    margin: 0;
+}
+
+.t-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.t-box {
+    margin: 0px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.t-img1 {
+    background-image: url(../images/moto.jpg);
+}
+
+.t-img2 {
+    background-image: url(../images/moto.jpg);
+}
+
+.t-img3 {
+    background-image: url(../images/moto.jpg);
+}
+
+.t-img4 {
+    background-image: url(../images/moto.jpg);
+}
+
+/* Contact Us *********************/
+
+
+.contact-us {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2833;
+    margin-top: 5%;
+}
+
+.contact-us h1 {
+    color: wheat;
+    font-size: 27px;
+    margin: 5px;
+    font-family: serif;
+
+}
+
+.contact-btn {
+    width:155px;
+    height: 33px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    background-color: thistle;
+    color: #0c0032;
+    margin:10px;
+    transition: all 0.7s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.contact-btn:hover {
+    transform: scale(1.1);
+    color: #0c0032 ;
+    background-color: wheat;
+}
+/* Plan *********************/
+
+
+.plan {
+    margin-top: 5%;
+}
+
+.p-box {
+    width: 222px;
+    height: 311px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    margin-left: 2%;
+}
+
+.p-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.p-box-heading {
+    font-weight: bold;
+    color: #1f2833;
+    font-size: 19px;
+}
+
+.price a {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.price p {
+    color:#0c0032;
+    font-size: 15px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.price {
+    text-align: center;
+}
+
+.p-b-details {
+    color: #3d3d3e;
+    font-size: 15px;
+    text-align: center;
+}
+
+.plan-btn {
+    color: wheat;
+    background-color: #1f2833;
+}
+
+/* Footer *********************/
+
+
+footer {
+    background-color: #1f2833;
+    margin: 50px 0 -9px 0;
+    padding: 0 20px;
+
+}
+
+.footer-container h1 {
+    color :wheat;
+   font-size: 22px;
+    
+}
+
+.footer-container ul li a {
+    font-size: 17ox;
+    color: whitesmoke;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    margin:5px; 
+    width:80%  ;
+    flex-wrap: wrap;
+}
+
+.social-icon a {
+    width: 35px;
+    height: 35px;
+    margin:0 5px;
+    background-color: #424356;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+}
+
+.search input {
+    height: 35px;
+    width: 222px;
+    text-align: center;
+    border:none;
+    outline: none;
+}
+
+.copyright {
+    font-size: 19px;
+    margin:10px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #26303d;
+    width: 100%;
+}
+
+.social-icon i{ 
+    color: white;
+}
+
+.footer-container ul li a:hover  {
+    color: rgb(218, 194, 149);
+    font-size:105% ;
+    transition: all ease-in-out 0.7s;
+}
+
+.social-icon a:hover{
+    color: wheat;
+    transform: scale(1.3);
+}
+
+/* Responsive *********************/
+
+
+@media (max-width:1024px) {
+    .s-box,
+    .p-box{
+        flex-grow: 1;
+        margin: 5px;
+    }
+    .p-box:nth-child(4){
+        height: 250px;
+        width: 100%;
+    }
+
+    .search {
+        margin: 20px auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+
+    }
+
+    .search h1 {
+        margin:20px;
+    }
+    
+}
+
+
+
+@media(max-width:720px){
+    .menu a {
+        margin: 0px 10px;
+        font-size:14px;
+    }
+    .sign-in{
+        height: 33px;
+        width: 80px;
+        font-size: 12px;
+    }
+    .s-box p,
+    .sbutton{
+        display: none;
+    }
+    .s-box{
+        flex-direction: row;
+        width: 100%;
+        padding: 5px;
+    }
+    .s-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .s-box a {
+        font-size: 16px;
+        margin: 0px 15px;
+    }
+    .team-img {
+        width: 60px;
+        height: 60px;
+    }
+    .t-box{
+        margin: 0px 10px 30px 10px;
+    }
+    .t-id a {
+        font-size: 14px;
+
+    }
+
+    .t-id p{
+        font-size: 12px;
+    }
+    .contact-us h1 {
+        font-size: 18px;
+    }
+    .contact-btn{
+        height: 33px;
+        width: 120px;
+        font-size: 12px;
+    }
+    .p-box {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .p-heading p{
+        width: 80%;
+        margin: 10px;
+        text-align: center;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-container ul h1 {
+        font-size: 25px;
+    }
+    .footer-container ul li {
+        text-align: center;
+        margin: 10px;
+    }
+    .footer-container ul li a {
+        font-size: 20px;
+    }
+    .search{
+        display: block;
+    }
+}
